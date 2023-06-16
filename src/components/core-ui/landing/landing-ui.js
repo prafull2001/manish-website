@@ -6,7 +6,7 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaFacebook, FaLinkedin, FaInstagram, FaMedium
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -34,42 +34,17 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                        {contactsData.github && (
+                        
+                        {contactsData.instagram && (
                             <a
-                                href={contactsData.github}
+                                href={contactsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaGithub
-                                    className='landing--social'
+                                <FaInstagram
+                                    className='landing--social instagram-icon'
                                     style={{ color: theme.primary }}
-                                    aria-label='GitHub'
-                                />
-                            </a>
-                        )}
-                        {contactsData.twitter && (
-                            <a
-                                href={contactsData.twitter}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaTwitter
-                                    className='landing--social twitter-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {contactsData.facebook && (
-                            <a
-                                href={contactsData.facebook}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaFacebook
-                                    className='landing--social facebook-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='facebook'
+                                    aria-label='instagram'
                                 />
                             </a>
                         )}

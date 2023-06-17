@@ -6,7 +6,7 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaLinkedin, FaInstagram, FaMedium
+    FaLinkedin, FaInstagram, FaMedium
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -71,9 +71,12 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'System Architect',
+                                'Senior Engineer',
+                                'Mentor',
+                                'Team Player',
+                                'Birder',
+                                'Dad']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"

@@ -1,7 +1,7 @@
 import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaLinkedinIn, FaMediumM, FaInstagram } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -19,7 +19,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
       style={{ backgroundColor: theme.secondary }}
     >
       <div className='contacts--container'>
-        <h1 style={{ color: theme.primary }}>Contacts</h1>
+        <h1 style={{ color: theme.primary }}>Contact Me</h1>
         <div className='contacts-body'>
           <div className='contacts-form'>
             <form ref={form} onSubmit={handleContactForm}>
@@ -155,36 +155,21 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 {contactsData.phone}
               </p>
             </a>
-            <div className='personal-details'>
-              <div className={classes.detailsIcon}>
-                <HiOutlineLocationMarker />
-              </div>
-              <p style={{ color: theme.tertiary }}>
-                {contactsData.address}
-              </p>
-            </div>
+            
 
             <div className='socialmedia-icons'>
-              {contactsData.twitter && (
+              
+              {contactsData.instagram && (
                 <a
-                  href={contactsData.twitter}
+                  href={contactsData.instagram}
                   target='_blank'
                   rel='noreferrer'
                   className={classes.socialIcon}
                 >
-                  <FaTwitter aria-label='Twitter' />
+                  <FaInstagram aria-label='Instagram' />
                 </a>
               )}
-              {contactsData.github && (
-                <a
-                  href={contactsData.github}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaGithub aria-label='GitHub' />
-                </a>
-              )}
+
               {contactsData.linkedIn && (
                 <a
                   href={contactsData.linkedIn}
@@ -207,37 +192,10 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 </a>
               )}
 
-              {contactsData.youtube && (
-                <a
-                  href={contactsData.youtube}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaYoutube aria-label='YouTube' />
-                </a>
-              )}
+              
 
-              {contactsData.stackOverflow && (
-                <a
-                  href={contactsData.stackOverflow}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaStackOverflow aria-label='Stack Overflow' />
-                </a>
-              )}
-              {contactsData.facebook && (
-                <a
-                  href={contactsData.facebook}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaFacebook aria-label='facebook' />
-                </a>
-              )}
+              
+              
             </div>
           </div>
         </div>

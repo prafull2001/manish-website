@@ -7,7 +7,6 @@ import { IoClose, IoHomeSharp, IoMenuSharp } from 'react-icons/io5';
 import { MdPhone } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import { HashLink as NavLink } from 'react-router-hash-link';
-import { headerData } from '../../../data/headerData';
 import './navbar.css';
 
 function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClose, open, changeTheme, isDark }) {
@@ -16,9 +15,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.primary }}>
-                    {shortname(headerData.name)}
-                </h1>
+                
 
                 <IoMenuSharp
                     className={classes.navMenu}
@@ -94,56 +91,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
-                            <NavLink
-                                to='/#resume'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Resume
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
 
-                        <Fade left>
-                            <div className={classes.drawerItem} onClick={changeTheme}>
-                                {isDark ?
-                                    <BsFillSunFill className={classes.drawerIcon} />
-                                    :
-                                    <BsFillMoonFill className={classes.drawerIcon} />
-                                }
-                                <span className={classes.drawerLinks}>
-                                    {
-                                        isDark ? "Light" : "Dark"
-                                    }
-                                </span>
-                            </div>
-                        </Fade>
-
-                        <Fade left>
-                            <NavLink
-                                to='/#blog'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <FaFolderOpen
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Blog
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade>
 
                         <Fade left>
                             <NavLink

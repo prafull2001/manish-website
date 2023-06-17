@@ -1,5 +1,5 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name is ABU SAID. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    title: "About Me",
+    description1: "My name is Manish Sharma. I am an Engineering Manager based in Belle Mead, NJ.",
+    description2: "I love to learn and explore new technologies and am passionate about problem solving. When I'm not working you can catch me chasing after all kinds birds to photograph - check out my work on Instagram!"
 }

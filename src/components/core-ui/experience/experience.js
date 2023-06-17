@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import React, { useContext } from 'react';
-import experience from '../../../assets/lottie/development.json';
+import experience from '../../../assets/lottie/workingman.json';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { experienceData } from '../../../data/experienceData';
 import AnimationLottie from '../../helper/animation-lottie';
@@ -17,6 +17,8 @@ function Experience() {
                     <div className="experience-image">
                         <AnimationLottie animationPath={experience} />
                     </div>
+                    {/* <div>
+                    </div> */}
                     <div className="experience-description">
                         <h1 style={{ color: theme.primary }}>Experience</h1>
                         {experienceData.map(exp => (
@@ -26,7 +28,8 @@ function Experience() {
                                 jobtitle={exp.jobtitle}
                                 company={exp.company}
                                 startYear={exp.startYear}
-                                endYear={exp.endYear} />
+                                endYear={exp.endYear}
+                                companyImage={exp.companyImage} />
                         ))}
                     </div>
                 </div>

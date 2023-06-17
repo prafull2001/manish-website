@@ -12,10 +12,20 @@ export const theLightTheme = {
 
 export const theDarkTheme = {
     type: 'dark',
-    primary: '#1D9BF0',
-    secondary: '#0F0C41',
-    quaternary: '#0C0B33',
-    quaternaryLight: '#8b98a5',
-    tertiary: '#EFF3F4',
-    buttonColor: '#8B98A5',
+    primary: '#14cccc', // header and button
+    secondary: '#0d7a7a', // main background
+    quaternary: '#14cccc', // exp cards and top left
+    quaternaryLight: '#14cccc',
+    tertiary: '#b5e3e3', // text
+    buttonColor: '#8B98A5', 
 }
+
+// export const theDarkTheme = {
+//     type: 'dark',
+//     primary: '#f8fbfb',
+//     secondary: '#b5e3e3',
+//     quaternary: '#60dcdc',
+//     quaternaryLight: '#14cccc',
+//     tertiary: '#008585',
+//     buttonColor: '#8B98A5',
+// }

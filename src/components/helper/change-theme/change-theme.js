@@ -24,13 +24,13 @@ const ChangeTheme = () => {
     <div
       className='changeTheme'
     >
-      <button onClick={changeTheme} aria-label='Back to top'>
+      {/* <button onClick={changeTheme} aria-label='Back to top'>
         {isDark ?
           <BsFillSunFill className={classes.icon} />
           :
           <BsFillMoonFill className={classes.icon} />
         }
-      </button>
+      </button> */}
     </div>
   );
 };

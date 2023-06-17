@@ -1,14 +1,5 @@
 /* eslint-disable */
 
-export const theLightTheme = {
-    type: 'light',
-    primary: '#1D9BF0',
-    quaternary: '#EFF3F4',
-    quaternaryLight: '#F7F9F9',
-    secondary: '#ffffff',
-    tertiary: '#0f1419',
-    buttonColor: '#0F1419',
-}
 
 export const theDarkTheme = {
     type: 'dark',
@@ -20,12 +11,3 @@ export const theDarkTheme = {
     buttonColor: '#8B98A5', 
 }
 
-// export const theDarkTheme = {
-//     type: 'dark',
-//     primary: '#f8fbfb',
-//     secondary: '#b5e3e3',
-//     quaternary: '#60dcdc',
-//     quaternaryLight: '#14cccc',
-//     tertiary: '#008585',
-//     buttonColor: '#8B98A5',
-// }

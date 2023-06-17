@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import './app.css';
 import BackToTop from './components/helper/back-to-top/back-to-top';
-import ChangeTheme from './components/helper/change-theme/change-theme';
 import ScrollToTop from './components/helper/scroll-to-top';
 import { ThemeContext } from './contexts/theme-context';
 import {HomePage} from './pages';
@@ -25,7 +24,6 @@ function App() {
         </Routes>
       </Router>
       <BackToTop />
-      <ChangeTheme />
     </div>
   );
 }

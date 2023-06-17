@@ -200,11 +200,6 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
           </div>
         </div>
       </div>
-      <img
-        src={theme.contactsimg}
-        alt='contacts'
-        className='contacts--img'
-      />
     </div>
   );
 };

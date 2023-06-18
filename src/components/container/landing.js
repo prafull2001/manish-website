@@ -8,8 +8,8 @@ const Landing = () => {
 
   const useStyles = makeStyles((t) => ({
     resumeBtn: {
-      color: theme.primary,
-      backgroundColor: theme.secondary,
+      backgroundColor: theme.primary,
+      color: theme.secondary,
       borderRadius: '30px',
       textTransform: 'inherit',
       textDecoration: 'none',
@@ -18,7 +18,7 @@ const Landing = () => {
       fontWeight: '500',
       height: '50px',
       fontFamily: 'var(--primaryFont)',
-      border: `3px solid ${theme.primary}`,
+      border: `5px solid ${theme.primary}`,
       transition: '500ms ease-out',
       '&:hover': {
         backgroundColor: theme.buttonColor,

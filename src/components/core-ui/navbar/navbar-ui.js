@@ -1,15 +1,13 @@
 import { Drawer } from '@mui/material';
 import React from 'react';
-import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
-import { FaFolderOpen, FaUser } from 'react-icons/fa';
-import { HiDocumentText } from 'react-icons/hi';
+import { FaUser } from 'react-icons/fa';
 import { IoClose, IoHomeSharp, IoMenuSharp } from 'react-icons/io5';
 import { MdPhone } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import { HashLink as NavLink } from 'react-router-hash-link';
 import './navbar.css';
 
-function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClose, open, changeTheme, isDark }) {
+function NavbarUI({ classes, handleDrawerOpen, handleDrawerClose, open}) {
 
 
     return (

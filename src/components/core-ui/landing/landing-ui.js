@@ -21,19 +21,6 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     style={{ backgroundColor: theme.quaternary }}
                 >
                     <div className='lcl--content'>
-                        {contactsData.linkedIn && (
-                            <a
-                                href={contactsData.linkedIn}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaLinkedin
-                                    className='landing--social linkedin-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='LinkedIn'
-                                />
-                            </a>
-                        )}
                         
                         {contactsData.instagram && (
                             <a
@@ -48,6 +35,36 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
+
+                        {contactsData.linkedIn && (
+                            <a
+                                href={contactsData.linkedIn}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaLinkedin
+                                    className='landing--social linkedin-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='LinkedIn'
+                                />
+                            </a>
+                        )}
+
+                        {contactsData.medium && (
+                            <a
+                                href={contactsData.medium}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaMedium
+                                    className='landing--social medium-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='medium'
+                                />
+                            </a>
+                        )}
+                        
+                        
                     </div>
                 </div>
                 <img

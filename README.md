@@ -10,8 +10,8 @@
 
 
 ## Acquiring domain + Publishing change to site
-- ***ADD CUSTOM DOMAIN YT LINK***
-- [Publishing to GitHub pages with a custom domain](https://www.youtube.com/watch?v=Q9n2mLqXFpU&t=229s&ab_channel=PedroTech)
+- [Adding custom domain to GitHub Pages](https://www.youtube.com/watch?v=EX4w9hsduNA&t=216s&pp=ygUcZ2l0aHViIHBhZ2VzIGdvb2dsZSBkb21haW5zIA%3D%3D)
+- [Publishing to GitHub Pages with a custom domain](https://www.youtube.com/watch?v=Q9n2mLqXFpU&t=229s&ab_channel=PedroTech)
 
 
 ## Data for each component is divided into these paths:

@@ -3,7 +3,7 @@ import resume from "../assets/pdf/resume.pdf";
 
 export const headerData = {
     name: 'Manish',
-    desciption: "Seasoned Sr. Engineering Leader with 15+ years of experience, specializing in building and leading global teams. With a strong track record in Finance and Big Tech, I have successfully scaled teams, developed systems from scratch driven by a results-first approach.",
+    desciption: "Seasoned Engineering Leader with 15+ years of building and growing highly Impactful global teams. Strong track record in Big Tech & Finance. Successfully scaled Teams and Systems from 0 to 1 guided by a collaborative, results-oriented approach.",
     image: profilePic,
     resumePdf: resume
 }

@@ -5,24 +5,24 @@ import wellsfargoLogo from "../assets/company_images/wellsfargo.png";
 export const experienceData = [
     {
         id: 1,
-        company: 'XYZ Consulting',
-        jobtitle: 'Senior Consultant',
-        startYear: 'Mar 2023',
+        company: 'Royal Bank of Canada',
+        jobtitle: 'Sr. Consultant',
+        startYear: 'Apr 2023',
         endYear: 'Present',
         companyImage: canadaBankLogo
     },
     {
         id: 2,
         company: 'Stealth Startup',
-        jobtitle: 'CTO',
+        jobtitle: 'CTO (Consultant)',
         startYear: 'Dec 2022',
         endYear: 'Present',
         companyImage: canadaBankLogo
     },
     {
         id: 3,
-        company: 'Meta',
-        jobtitle: 'Instagram Engineering Leader',
+        company: 'Meta (Instagram)',
+        jobtitle: 'Engineering Leader, Product Foundation',
         startYear: 'Jun 2021',
         endYear: 'Nov 2022',
         companyImage: instagramLogo

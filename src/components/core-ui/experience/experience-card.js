@@ -23,9 +23,9 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear, companyImage
                     {companyImage && <img src={companyImage} alt="" />}
                 </div>
                 <div className="experience-details">
-                    <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
-                    <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
-                    <h7 style={{color: theme.tertiary}}>{company}</h7>
+                    <h6 style={{color: theme.secondary}}>{startYear}-{endYear}</h6>
+                    <h4 style={{color: theme.secondary}}>{jobtitle}</h4>
+                    <h7 style={{color: theme.secondary}}>{company}</h7>
                 </div>
             </div>
         </Fade>   

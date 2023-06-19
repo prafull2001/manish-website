@@ -21,19 +21,6 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     style={{ backgroundColor: theme.quaternary }}
                 >
                     <div className='lcl--content'>
-                        {contactsData.linkedIn && (
-                            <a
-                                href={contactsData.linkedIn}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaLinkedin
-                                    className='landing--social linkedin-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='LinkedIn'
-                                />
-                            </a>
-                        )}
                         
                         {contactsData.instagram && (
                             <a
@@ -43,11 +30,41 @@ function LandingUI({ theme, drawerOpen, classes }) {
                             >
                                 <FaInstagram
                                     className='landing--social instagram-icon'
-                                    style={{ color: theme.primary }}
+                                    style={{ color: theme.secondary }}
                                     aria-label='instagram'
                                 />
                             </a>
                         )}
+
+                        {contactsData.linkedIn && (
+                            <a
+                                href={contactsData.linkedIn}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaLinkedin
+                                    className='landing--social linkedin-icon'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='LinkedIn'
+                                />
+                            </a>
+                        )}
+
+                        {contactsData.medium && (
+                            <a
+                                href={contactsData.medium}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaMedium
+                                    className='landing--social medium-icon'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='medium'
+                                />
+                            </a>
+                        )}
+                        
+                        
                     </div>
                 </div>
                 <img
@@ -71,12 +88,14 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'System Architect',
-                                'Senior Engineer',
-                                'Mentor',
-                                'Team Player',
-                                'Birder',
-                                'Dad']}
+                                'Full-stack Architect ',
+                                ' Cloud Architect ',
+                                ' Data Expert ',
+                                ' Fintech Expert ',
+                                ' Perpetual Learner ',
+                                ' Mentor ',
+                                ' Dad ',
+                                ' Birder ']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"

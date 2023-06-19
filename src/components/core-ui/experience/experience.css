@@ -35,7 +35,7 @@
   width: 90%;
   height: 140px;
   padding: 1.5rem;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 1.5rem;
   transition: background-color 200ms ease-in-out;
 }
@@ -59,6 +59,13 @@
   margin-left: 0.6rem;
 }
 
+.experience-details > h7 {
+  font-family: var(--primaryFont);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
 .experience-details > h6 {
   font-family: var(--primaryFont);
   font-size: 0.85rem;
@@ -75,6 +82,12 @@
 .experience-details > h5 {
   font-family: var(--primaryFont);
   font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.experience-details > p {
+  font-family: var(--primaryFont);
+  font-size: .75rem;
   font-weight: 600;
 }
 

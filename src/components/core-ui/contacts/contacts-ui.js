@@ -1,7 +1,7 @@
 import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaLinkedinIn, FaMediumM, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaMedium, FaInstagram } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -24,7 +24,11 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
           <div className='contacts-form'>
             <form ref={form} onSubmit={handleContactForm}>
               <div className='input-container'>
-                <label htmlFor='Name' className={classes.label}>
+                <label 
+                  htmlFor='Name' 
+                  className={classes.label}
+                  style={{color: theme.primary}}
+                >
                   Name
                 </label>
                 <input
@@ -40,6 +44,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 <label
                   htmlFor='Email'
                   className={classes.label}
+                  style={{color: theme.primary}}
                 >
                   Email
                 </label>
@@ -56,6 +61,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 <label
                   htmlFor='Message'
                   className={classes.label}
+                  style={{color: theme.primary}}
                 >
                   Message
                 </label>
@@ -158,38 +164,46 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
             
 
             <div className='socialmedia-icons'>
-              
               {contactsData.instagram && (
-                <a
-                  href={contactsData.instagram}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaInstagram aria-label='Instagram' />
-                </a>
+                  <a
+                      href={contactsData.instagram}
+                      target='_blank'
+                      rel='noreferrer'
+                  >
+                      <FaInstagram
+                          className='landing--social instagram-icon'
+                          style={{ color: theme.primary }}
+                          aria-label='instagram'
+                      />
+                  </a>
               )}
 
               {contactsData.linkedIn && (
-                <a
-                  href={contactsData.linkedIn}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaLinkedinIn aria-label='LinkedIn' />
-                </a>
+                  <a
+                      href={contactsData.linkedIn}
+                      target='_blank'
+                      rel='noreferrer'
+                  >
+                      <FaLinkedin
+                          className='landing--social linkedin-icon'
+                          style={{ color: theme.primary }}
+                          aria-label='LinkedIn'
+                      />
+                  </a>
               )}
 
               {contactsData.medium && (
-                <a
-                  href={contactsData.medium}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaMediumM aria-label='Medium' />
-                </a>
+                  <a
+                      href={contactsData.medium}
+                      target='_blank'
+                      rel='noreferrer'
+                  >
+                      <FaMedium
+                          className='landing--social medium-icon'
+                          style={{ color: theme.primary }}
+                          aria-label='medium'
+                      />
+                  </a>
               )}
 
               

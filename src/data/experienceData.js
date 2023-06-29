@@ -2,6 +2,7 @@ import instagramLogo from "../assets/company_images/instagram.png";
 import canadaBankLogo from "../assets/company_images/canadabank.png";
 import wellsfargoLogo from "../assets/company_images/wellsfargo.png";
 import jpmorganLogo from "../assets/company_images/jpmorgan.png";
+import stealthLogo from "../assets/company_images/stealth.png";
 
 export const experienceData = [
     {
@@ -19,8 +20,8 @@ export const experienceData = [
         jobtitle: 'CTO (Consultant)',
         blurb: 'Head of Engineering and Product for a consumer B2B startup in the restaurant tech industry',
         startYear: 'Dec 2022',
-        endYear: 'Present',
-        companyImage: canadaBankLogo
+        endYear: 'Apr 2023',
+        companyImage: stealthLogo
     },
     {
         id: 3,

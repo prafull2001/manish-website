@@ -16,8 +16,12 @@
 
 ## Data for each component is divided into these paths:
 
-- About You - [`src/data/aboutData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/aboutData.js)
-- Skills - [`src/data/skillsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/skillsData.js)
-- Experience - [`src/data/experienceData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/experienceData.js)
-- Contact - [`src/data/contactsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/contactsData.js)
-- Social Media Profiles - [`src/data/contactsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/socialsData.js)
+- About You - [`src/data/aboutData.js`](https://github.com/prafull2001/manish-website/blob/main/src/data/aboutData.js)
+- Skills - [`src/data/skillsData.js`](https://github.com/prafull2001/manish-website/blob/main/src/data/skillsData.js)
+- Experience - [`src/data/experienceData.js`](https://github.com/prafull2001/manish-website/blob/main/src/data/experienceData.js)
+- Contact - [`src/data/contactsData.js`](https://github.com/prafull2001/manish-website/blob/main/src/data/contactsData.js)
+
+
+## Change site color-scheme data here
+
+[`src/theme/theme.js`](https://github.com/prafull2001/manish-website/blob/readme-fixes/src/theme/theme.js)

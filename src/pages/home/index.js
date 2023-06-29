@@ -19,7 +19,6 @@ function HomePage() {
             <About />
             <Experience />
             <Skills />
-            {/* <Certificate /> */}
             <Contacts />
         </div>
     )
